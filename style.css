@@ -92,4 +92,52 @@ main img{
     padding: 15px;
 }
 
+@media (min-width:1020px) {
+    body{
+        background: url(/assets/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+    }
+    .container{
+        width: 85%;
+        margin: auto;
+    }
 
+    header img{
+        width: 18%;
+    }
+    .header{
+        margin-top: 1rem;
+    }
+    
+    /* main style starts next */
+    
+    .main-container {
+        margin-top: 5rem;
+        width: 85%;
+        height: 25rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    main img {
+        width: 57%;
+    }
+    .main-inner{
+        width: 40%;
+    }
+
+    .main-container h2{
+        /* font-family: 'Poppins', sans-serif; */
+        color: white;
+        text-align: start;
+        width: 80%;
+        font-size: 2rem;
+        text-align: start;
+    }
+    .main-container p{
+        color: white;
+        text-align: start;
+    }
+    .footer{
+        text-align: end;
+    }
+}    
